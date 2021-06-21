@@ -65,84 +65,91 @@ class _HomePageState extends State<HomePage> {
             mainAxisSpacing: 10,
             crossAxisCount: 2,
             children: <Widget>[
-                Card(
+               Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
                   child: Padding(
                     padding: const EdgeInsets.only(left: 10,right: 10),
-                    child: Image.asset("Assets/Images/brakfast.jpg"),
+                    child: Image.asset("Assets/Images/food1.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/food2.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/food3.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/food4.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/food5.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/food6.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/food8.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/food10.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),Card(
+                  elevation: 5
+                  ,borderOnForeground: false,
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/food9.jpg"),
                   ),
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                   margin: EdgeInsets.all(1),
                 ),
 
 
-                 ClipRRect(
-                  borderRadius: BorderRadius.circular(24),
-                  child: Image(
-                    image: ExactAssetImage(
-                        "Assets/Images/food6.jpg"),
-                  ),
 
-                ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food5.jpg"),
-                ),
-              ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food4.jpg"),
-                ),
-              ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food3.jpg"),
-                ),
-              ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food4.jpg"),
-                ),
-              ),  ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food6.jpg"),
-                ),
-              ),  ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food7.jpg"),
-                ),
-              ),
-                ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food10.jpg"),
-                ),
-              ),  ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food5.jpg"),
-                ),
-              ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(24),
-                child: Image(
-                  image: ExactAssetImage(
-                      "Assets/Images/food3.jpg"),
-                ),
-              ),
 
             ],
           ),
