@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter/widgets.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -64,6 +65,14 @@ class _HomePageState extends State<HomePage> {
             mainAxisSpacing: 10,
             crossAxisCount: 2,
             children: <Widget>[
+                Card(
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 10,right: 10),
+                    child: Image.asset("Assets/Images/brakfast.jpg"),
+                  ),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                  margin: EdgeInsets.all(1),
+                ),
 
 
                  ClipRRect(
@@ -72,6 +81,7 @@ class _HomePageState extends State<HomePage> {
                     image: ExactAssetImage(
                         "Assets/Images/food6.jpg"),
                   ),
+
                 ),
               ClipRRect(
                 borderRadius: BorderRadius.circular(24),
